@@ -15,3 +15,6 @@ A lightweight embeddable graph database. Labeled property graph model, fluent tr
 
 ### [BoolDock](https://github.com/importsource/BoolDock)
 A minimal container runtime. Implements the Linux primitives that make containers work — namespaces, cgroups, `pivot_root`, UID remapping — in a few thousand lines of Rust. Falls back to a `fork` + `chroot` development mode on macOS.
+
+### [CloseClaw](https://github.com/importsource/CloseClaw)
+An agent framework for building AI agents that use tools and hold conversations. ReAct loop with streaming, multi-provider (Anthropic / OpenAI), multi-channel (CLI / WebChat / Telegram), built-in tools (shell, file I/O, web fetch, browser automation), JSONL session persistence, and a web admin UI.
